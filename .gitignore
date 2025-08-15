@@ -1,0 +1,61 @@
+.history
+## Xcode
+# 用户数据
+xcuserdata/
+*.xcuserstate
+
+# 构建产物
+build/
+DerivedData/
+
+# iOS 设备支持文件
+iOS DeviceSupport/
+
+# Xcode 生成的索引、调试符号
+*.xcuserdatad
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+
+# xcpretty 生成的输出
+*.xcactivitylog
+
+# Xcode 缓存
+*.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+
+## Swift Package Manager
+.swiftpm/
+.build/
+Package.resolved
+
+## CocoaPods
+Pods/
+# 如果你要提交 Podfile.lock 就保留，否则也可忽略
+# Podfile.lock
+
+## Carthage
+Carthage/Build/
+
+## Accio 依赖管理
+Dependencies/
+.accio/
+
+## Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+## 代码签名 & 证书
+*.p12
+*.mobileprovision
+
+## Playground
+timeline.xctimeline
+playground.xcworkspace
+
+## 其他缓存
+*.swp
+*.swo
+.DS_Store
+*.tmp
